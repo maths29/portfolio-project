@@ -1,0 +1,122 @@
+*{
+    font-family: 'Poppins';
+}
+body{
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.top{
+    background-image: url(img/header-background-mobile.png);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 718px;
+    background-color: white;
+    z-index: inherit;
+}
+nav{
+    position: absolute;
+    top: 50px;
+    left: 24px;
+    width: 100%;
+    overflow: hidden;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+.head-text{
+    width: 375px;
+    top: 114px;
+    position: absolute;
+    left: 24px;
+}
+.head-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #172B4D;
+    line-height: 52px;
+}
+
+.head-text p{
+    font-size: 16px;
+    color: #344563;
+    line-height: 24px;
+}
+
+.img1{
+    position: absolute;
+    top: 100px;
+    
+}
+.img2{
+    position: absolute;
+    top: 110px;
+    left: 127px;
+    
+}
+.img3{
+    position: absolute;
+    top: 105px;
+    left: 323px;
+    
+}
+.img4{
+    position: absolute;
+    top: 120px;
+    left: 129px;
+    
+}
+.img5{
+    position: absolute;
+    top: 75px;
+    left: 290px;
+    
+}
+.text-bottom2 li{
+    list-style: none;
+}
+
+.rectangle-item h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #7F8CFF;
+    line-height: 24px;
+}
+.text-bottom2{
+    display: flex;
+    
+    left: 65px;
+
+}
+
+.social{
+    padding: 12px;
+    margin-left: -12px;
+    margin-top: -9px;
+}
+.rectangle-item{
+    display: flex;
+  
+}
+.rectangle-item img{
+    height: 15px;
+    float: right;
+    margin-top: 32px;
+    margin-left: 189px;
+}
+.dimg{
+    height: 35px;
+    width: 40px;
+    margin-left: 294px;
+    
+    
+}
+
+
